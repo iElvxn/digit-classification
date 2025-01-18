@@ -18,7 +18,7 @@ x_test = tf.keras.utils.normalize(x_test, axis = 1)
 
 # model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-# model.fit(x_train, y_train, epochs=500)
+# model.fit(x_train, y_train, epochs=1000)
 # model.save('digit_model.keras')
 
 model = tf.keras.models.load_model('digit_model.keras')
